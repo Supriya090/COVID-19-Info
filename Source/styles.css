@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+@import url("https://fonts.googleapis.com/css?family=Gotu:300,400");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400");
-@font-face{
-    font-family: "Title";
-    src: url("../Fonts/Title.ttf") format("ttf"),
-        url("../Fonts/text.ttf")    format("ttf");
-}
 
 *{
     box-sizing: border-box;
@@ -60,5 +56,114 @@ html, body{
     text-align: center;
     margin: 0;
     font-size: 6em;
-    font-family: "Ubuntu";
+    font-family: "Gotu";
+    color: aliceblue;
 }
+
+.content-section
+{
+    margin: 2em;
+}
+
+.container
+{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header
+{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-image{
+    float: left;
+    margin: 15px;
+}
+
+.spread-header{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.main-footer{
+    color: white;
+    padding: 0.25em 0;
+    background-image: url("../Images/footback.jfif");
+    background-color: rgba(0,0,0, 0.2);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav a:hover{
+    background-color: rgba(0,0,0, 0.1);
+}
+
+.footer-nav li{
+    padding: 0 .2em;
+}
+
+.footer-text{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1em;
+    padding: 0 .5em;
+}
+
+.footer-info{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: right;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+}
+
+.stat-btn{
+    margin: .5em;
+    border: 2px solid #2d9cdb;
+    background-color: rgba(255,255,255, 0.4);
+    font-size: 1.2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.stat-btn:hover{
+    background-color: rgba(255,255,255, 0.6);
+}
+
+.stat-btn a{
+    display: inline-block;
+    color:#333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.vaccine-image
+{
+    margin: 15px;
+}
+

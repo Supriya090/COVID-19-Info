@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <HTML>
-    <head> 
-        <title>COVID-19</title> 
+    <head>  
+        <title>COVID-19</title>
+        <link rel = "stylesheet" href ="styles.css" />
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href = "main.html">HOME</a></li>
                     <li><a href = "symptoms.html">SYMPTOMS</a></li>
@@ -13,12 +14,10 @@
                     <li><a href = "treatment.html">TREATMENT</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>COVID-19</h1>
-            <!--TODO- Find a background Image-->
+            <h1 class="heading">COVID-19</h1>
         </header>
-        <section>
-            <h2>
+        <section class = "content-section container">
+            <h2 class= "section-header">
                  Symptoms 
             </h2>
             <div>
@@ -29,19 +28,20 @@
                     viruses).
                 </div>
                 <div>
-                    <h3>Mild Symptoms</h3>
+                    <h3 class="spread-header">Mild Symptoms</h3>
                     <ol>
                         <li>Fever</li>
                         <li>Cough</li>
                         <li>Shortness of Breath</li>
                     </ol>
                     <img src="../Images/images.jfif">
-                    <img src="../Images/download (1).png">
                     <img src="../Images/download.jfif">
+                    <img src="../Images/download (1).png" height="200" width="200">
+                    
                 </div>
                 <hr>
                 <div>
-                    <h3>Major Symptoms</h3>
+                    <h3 class="spread-header">Major Symptoms</h3>
                     <ol>
                         <li>Trouble breathing</li>
                         <li>Persistent pain or pressure in the chest</li>
@@ -53,21 +53,28 @@
                 </div>
             </div>
             <br>
-            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"><button>Learn More from WHO</button></a>
+            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"><button class="btn lrn-btn">Learn More from WHO</button></a>
             <br>
-            <button>Click to see video &#9658;</button>
+            <br>
+            <button class="btn">Click to see video &#9658;</button>
+            <br>
+            <br>
         </section>
-            <footer>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <button class="btn stat-btn"><a href="https://www.worldometers.info/coronavirus/?">Current&nbsp;&nbsp;Statistics</a></button>
                 <br>
                 <br>
                 <br>
-                <button><a href="https://www.worldometers.info/coronavirus/?">Current Statistics</a></button>
-                <h4>For more Information</h4>
-                <ul>
-                    <li><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"><img src="../Images/download.png", height="40", width = "40"></a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic"><img src="../Images/wiki.jfif", height="40", width = "40"></a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic"><img src="../Images/bbc.png", height="40", width = "40"></a></li>
-                </ul>
-            </footer>
+                <div class="footer-info">
+                    <h4 class="footer-text">For more Information</h4>
+                    <ul class="nav footer-nav">
+                        <li><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"><img src="../Images/download.png", height="50", width = "50"></a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic"><img src="../Images/wiki.png", height="50", width = "50"></a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic"><img src="../Images/bbc.png", height="50", width = "50"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </body>
 </HTML>
