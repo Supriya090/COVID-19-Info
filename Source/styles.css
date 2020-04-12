@@ -5,7 +5,7 @@
 *{
     box-sizing: border-box;
     font-family: Raleway;
-    color: #777;
+    color: #555;
 }
 
 html, body{
@@ -164,6 +164,86 @@ html, body{
 
 .vaccine-image
 {
-    margin: 15px;
+    align-items: center;
+    margin: 20px;
 }
 
+.flu-caption{
+    text-align: center;
+    font-size: small;
+}
+
+.info-btn-container
+{
+    padding: 1em 15em;
+}
+.info-btn
+{
+    margin: .5em;
+    background-color: rgba(255,255,255, 0.4);
+    font-size: 1.1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-decoration: none;
+    
+}
+
+.info-btn a{
+    display: inline-block;
+    color:#333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.info-btn:hover{
+    background-color: #ffebcd;
+}
+
+.video-wrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 15px;
+    height: 0px;
+}
+
+.video-wrapper iframe{
+    position: absolute;
+    left:0px;
+    top:0 px;
+    right: 0 px;
+    bottom: 0 px;
+    height: 90%;
+    width: 100%
+}
+
+.sympt-image{
+    float: right;
+    padding: 10px;
+}
+
+.lrn-btn
+{
+    margin: .5em;
+    background-image: url("../Images/Capture.PNG");
+    font-size: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-decoration: none;
+    float: right;
+    
+}
+
+.lrn-btn a{
+    display: inline-block;
+    color: #333;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.lrn-btn:hover{
+    background-image: url("../Images/Capture2.PNG")
+}
+
+.stat-image{
+    margin: 30px;
+}
