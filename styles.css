@@ -46,7 +46,7 @@ html, body{
 
 .main-header{
     background-color: rgba(0,0,0, 0.5);
-    background-image: url("../Images/bg.jfif");
+    background-image: url("Images/bg.jfif");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom:30px ;
@@ -96,7 +96,7 @@ html, body{
 .main-footer{
     color: white;
     padding: 0.25em 0;
-    background-image: url("../Images/footback.jfif");
+    background-image: url("Images/footback.jfif");
     background-color: rgba(0,0,0, 0.2);
     background-blend-mode: multiply;
     background-size: cover;
@@ -224,7 +224,7 @@ html, body{
 .lrn-btn
 {
     margin: .5em;
-    background-image: url("../Images/Capture.PNG");
+    background-image: url("Images/Capture.PNG");
     font-size: 1em;
     padding-left: 2em;
     padding-right: 2em;
@@ -241,7 +241,7 @@ html, body{
 }
 
 .lrn-btn:hover{
-    background-image: url("../Images/Capture2.PNG")
+    background-image: url("Images/Capture2.PNG")
 }
 
 .stat-image{
